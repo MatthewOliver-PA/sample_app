@@ -14,6 +14,7 @@ gem 'puma',                       '3.12.2'
 gem 'sass-rails',                 '5.1.0'
 gem 'webpacker',                  '4.0.7'
 gem 'turbolinks',                 '5.2.0'
+gem "bootstrap",                  "~> 4.4"
 gem 'jbuilder',                   '2.9.1'
 gem 'bootsnap',                   '1.4.5', require: false
 
@@ -47,3 +48,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
