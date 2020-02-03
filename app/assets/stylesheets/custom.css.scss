@@ -75,17 +75,20 @@ p {
   }
 }
 
-/* footer */
+.nav>li {
+  float: left;
+}
 
+/* footer */
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid grayMediumLight;
-  color: grayLight;
+  border-top: 1px solid #eaeaea;
+  color: #999;
   a {
-    color: gray;
+    color: #555;
     &:hover {
-      color: grayDarker;
+      color: #222;
     }
   }
   small {
